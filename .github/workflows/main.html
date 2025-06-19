@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xcheaper - WordPress SEO & Speed Optimization</title>
+    <!-- Tailwind CSS CDN for modern and responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+        }
+        /* Custom scrollbar for a cleaner look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-purple-700 text-white p-6 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <!-- Company Name in Header (no logo picture) -->
+            <a href="#" class="text-4xl font-extrabold rounded-md px-2 py-1 bg-opacity-10 bg-white hover:bg-opacity-20 transition-all">Xcheaper</a>
+            <div class="space-x-6">
+                <a href="#services" class="text-lg hover:text-blue-200 transition-colors font-medium">Services</a>
+                <a href="#packages" class="text-lg hover:text-blue-200 transition-colors font-medium">Packages</a>
+                <a href="#contact" class="text-lg hover:text-blue-200 transition-colors font-medium">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-blue-500 to-purple-600 text-white py-24 px-6 text-center shadow-inner" id="home">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in">
+                Unlock Your Website's Full Potential
+            </h1>
+            <p class="text-xl md:text-2xl mb-10 opacity-90 animate-fade-in-delay-1">
+                Expert WordPress SEO Optimization & Speed-Focused Website Development
+            </p>
+            <a href="#packages" class="inline-block bg-white text-blue-600 font-bold py-4 px-10 rounded-full text-xl shadow-lg hover:bg-blue-100 transform hover:scale-105 transition-all duration-300">
+                View Our Packages
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 px-6" id="services">
+        <div class="container mx-auto text-center max-w-5xl">
+            <h2 class="text-4xl font-bold text-gray-800 mb-12">What We Offer</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-blue-500">
+                    <div class="text-5xl mb-6 text-blue-500">🚀</div>
+                    <h3 class="text-2xl font-semibold mb-4">WordPress Speed Optimization</h3>
+                    <p class="text-gray-600">
+                        Boost your website's loading times and improve user experience with advanced caching, image compression, and code optimization techniques.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-purple-500">
+                    <div class="text-5xl mb-6 text-purple-500">🔍</div>
+                    <h3 class="text-2xl font-semibold mb-4">Comprehensive SEO</h3>
+                    <p class="text-gray-600">
+                        Rank higher on search engines with meticulous on-page SEO, technical optimization, meta tags, and sitemap configuration.
+                    </p>
+                </div>
+                <div class="bg-white p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border-t-4 border-green-500">
+                    <div class="text-5xl mb-6 text-green-500">💻</div>
+                    <h3 class="text-2xl font-semibold mb-4">Responsive Web Development</h3>
+                    <p class="text-gray-600">
+                        Get a stunning, fully responsive WordPress website that looks great and functions perfectly on all devices.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="py-20 px-6 bg-gradient-to-tl from-gray-100 to-gray-200" id="packages">
+        <div class="container mx-auto text-center max-w-6xl">
+            <h2 class="text-4xl font-bold text-gray-800 mb-14">Our Value-Packed Packages</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Basic Package Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border-t-8 border-green-500 flex flex-col items-center transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-3xl font-bold text-green-600 mb-4">Basic</h3>
+                    <p class="text-xl font-semibold text-gray-600 mb-6">WordPress SEO Essentials</p>
+                    <div class="text-6xl font-extrabold text-gray-900 mb-8">
+                        $40
+                    </div>
+                    <ul class="text-left text-lg text-gray-700 space-y-3 mb-10 flex-grow w-full">
+                        <li class="flex items-center"><span class="text-green-500 mr-3">✔️</span> On-page SEO for up to 5 pages</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-3">✔️</span> Meta tags, headings, image ALT tags</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-3">✔️</span> Yoast/RankMath Plugin Setup</li>
+                        <li class="flex items-center"><span class="text-green-500 mr-3">✔️</span> Sitemap & robots.txt config</li>
+                    </ul>
+                    <div class="text-sm text-gray-500 mb-6">
+                        <p>🕒 Delivery: 2 Days</p>
+                        <p>🔄 Revisions: 1</p>
+                    </div>
+                    <a href="mailto:xcheaper@hotmail.com?subject=Inquiry%20about%20Basic%20WordPress%20SEO%20Essentials" class="block w-full bg-green-500 text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-green-600 transition-colors shadow-md">
+                        Get Started
+                    </a>
+                </div>
+
+                <!-- Standard Package Card (Highlighted) -->
+                <div class="bg-white p-8 rounded-2xl shadow-2xl border-t-8 border-yellow-500 flex flex-col items-center transform scale-105 transition-transform duration-300 z-10">
+                    <h3 class="text-3xl font-bold text-yellow-600 mb-4">Standard</h3>
+                    <p class="text-xl font-semibold text-gray-600 mb-6">SEO + WordPress Setup</p>
+                    <div class="text-6xl font-extrabold text-gray-900 mb-8">
+                        $100
+                    </div>
+                    <ul class="text-left text-lg text-gray-700 space-y-3 mb-10 flex-grow w-full">
+                        <li class="flex items-center"><span class="text-yellow-500 mr-3">✔️</span> <span class="font-semibold">All from Basic Package</span></li>
+                        <li class="flex items-center"><span class="text-yellow-500 mr-3">✔️</span> WordPress Theme Installation & Customization</li>
+                        <li class="flex items-center"><span class="text-yellow-500 mr-3">✔️</span> 5-Page Responsive Site Design</li>
+                        <li class="flex items-center"><span class="text-yellow-500 mr-3">✔️</span> Speed Optimization (caching, image compression)</li>
+                        <li class="flex items-center"><span class="text-yellow-500 mr-3">✔️</span> Mobile + SEO Friendly Setup</li>
+                    </ul>
+                    <div class="text-sm text-gray-500 mb-6">
+                        <p>🕒 Delivery: 4 Days</p>
+                        <p>🔄 Revisions: 2</p>
+                    </div>
+                    <a href="mailto:xcheaper@hotmail.com?subject=Inquiry%20about%20Standard%20SEO%20%2B%20WordPress%20Setup" class="block w-full bg-yellow-500 text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-yellow-600 transition-colors shadow-md">
+                        Get Started
+                    </a>
+                </div>
+
+                <!-- Premium Package Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-xl border-t-8 border-red-500 flex flex-col items-center transform hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-3xl font-bold text-red-600 mb-4">Premium</h3>
+                    <p class="text-xl font-semibold text-gray-600 mb-6">Full WordPress SEO & Site Build</p>
+                    <div class="text-6xl font-extrabold text-gray-900 mb-8">
+                        $200
+                    </div>
+                    <ul class="text-left text-lg text-gray-700 space-y-3 mb-10 flex-grow w-full">
+                        <li class="flex items-center"><span class="text-red-500 mr-3">✔️</span> <span class="font-semibold">All from Standard Package</span></li>
+                        <li class="flex items-center"><span class="text-red-500 mr-3">✔️</span> Up to 10 Pages</li>
+                        <li class="flex items-center"><span class="text-red-500 mr-3">✔️</span> Custom Homepage Design</li>
+                        <li class="flex items-center"><span class="text-red-500 mr-3">✔️</span> Full On-Page + Technical SEO</li>
+                        <li class="flex items-center"><span class="text-red-500 mr-3">✔️</span> Speed Grade A (GTmetrix/Pagespeed)</li>
+                        <li class="flex items-center"><span class="text-red-500 mr-3">✔️</span> Schema Markup + Security Setup</li>
+                    </ul>
+                    <div class="text-sm text-gray-500 mb-6">
+                        <p>🕒 Delivery: 6 Days</p>
+                        <p>🔄 Revisions: 3</p>
+                    </div>
+                    <a href="mailto:xcheaper@hotmail.com?subject=Inquiry%20about%20Premium%20Full%20WordPress%20SEO%20%26%20Site%20Build" class="block w-full bg-red-500 text-white font-bold py-4 px-8 rounded-full text-lg hover:bg-red-600 transition-colors shadow-md">
+                        Get Started
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="bg-blue-800 text-white py-20 px-6" id="contact">
+        <div class="container mx-auto text-center max-w-3xl">
+            <h2 class="text-4xl font-bold mb-8">Get in Touch</h2>
+            <p class="text-xl mb-8">
+                Ready to optimize your WordPress site or build a new one? Contact us today!
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-10">
+                <div class="flex items-center">
+                    <span class="text-3xl mr-4">✉️</span>
+                    <a href="mailto:xcheaper@hotmail.com" class="text-xl font-semibold hover:text-blue-200 transition-colors">xcheaper@hotmail.com</a>
+                </div>
+                <div class="flex items-center">
+                    <span class="text-3xl mr-4">📞</span>
+                    <a href="tel:+923090761510" class="text-xl font-semibold hover:text-blue-200 transition-colors">+92 (309) 076-1510</a>
+                </div>
+            </div>
+            <p class="text-lg mt-12 opacity-80">We look forward to hearing from you!</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-300 py-8 px-6 text-center text-sm">
+        <div class="container mx-auto">
+            <!-- Company Name in Footer (no logo picture) -->
+            <p class="text-2xl font-bold mb-4">Xcheaper</p>
+            <p>&copy; <span id="current-year"></span> Xcheaper. All rights reserved.</p>
+            <p class="mt-2">Designed for quality & performance.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Smooth scroll for navigation links, excluding the main logo link (href="#")
+        document.querySelectorAll('nav a[href^="#"]:not([href="#"])').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                // Ensure the target element exists before trying to scroll
+                const targetElement = document.querySelector(this.getAttribute('href'));
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Smooth scroll for "View Our Packages" button in the Hero Section
+        // The Hero Section has id="home", so we target the anchor within it.
+        document.querySelector('#home a[href="#packages"]').addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
